@@ -1,0 +1,128 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+*{
+	line-height: 1.6;
+}
+header{background-color:#EEF3F1;
+height:600px;}
+.container{
+	margin:0 auto;
+	width:960px;	
+}
+nav{
+	background-color:#360709;
+}
+ul{
+	list-style:none;
+	text-align:right;
+	font-weight: 400;
+	font-size:1.2em;
+	margin:0;
+	padding: 0;
+	
+}
+li{ 
+	display: inline-block;
+	
+}
+li a{
+	display:block;
+	text-decoration: none;
+	color:#FFF3B0;
+	cursor:pointer;
+	text-align:center;
+	padding:10px 20px;
+	
+}
+li a:hover{
+	background-color: darkmagenta;
+	color:orangered;
+	
+}
+li,h1,h2,h3{
+	font-family:'Handlee', cursive;}
+h1{
+	font-size: 3.5em;
+	text-align: center;
+	color:#360709;
+	position: relative;
+  	left: 80px;
+  	top: 80px;
+	font-weight: 400;
+	z-index: 1;
+	width:960px;
+}
+#logo{
+	position: absolute;
+  	left: 100px;
+  	top: 80px;
+	width:280px;
+	z-index: 1;
+}
+
+
+main,section{
+	color:#142429;
+	padding:20px 100px 50px 100px;
+	background-color: #E09F3E;
+}
+h2{
+	font-size:2em;
+	text-align: center;
+	padding:30px 0 10px 0;
+}
+section{
+	background-color:#142429;
+	color:#FFF3B0;
+	text-align: left;
+	padding-bottom: 40px;
+}
+.column{
+	text-align: center;
+	display:inline-block;
+	margin:40px auto;
+	width:270px;
+	color:#142429;
+	background-color: #FFF3B0;
+	height:460px;
+}
+.column p{
+	padding: 5px 15px;
+	font-size: 0.8em;
+	text-align: left;
+}
+button{
+	background-color:#E09F3E;
+	text-transform: uppercase;
+	margin:15px;
+	cursor:pointer;
+	border-radius: 30px;
+	width:80%;
+}
+button a{
+	border-color:saddlebrown;
+	text-decoration:none;
+	color:saddlebrown;
+}
+button a:hover{
+	background-color: orangered;
+	color:black;
+	display:block;
+	border-radius: 30px;
+}
+#center-column{
+	margin: 0 10px 0 10px
+}
+footer{
+	color:#142429;
+	background-color:#E09F3E;
+	text-align: center;
+	font-size:0.8em;
+	height:120px;
+	font-weight: 700
+}
+.copyright{
+	padding-top: 4px;
+	padding-bottom: 4px;
+	opacity: 60%;
+}
